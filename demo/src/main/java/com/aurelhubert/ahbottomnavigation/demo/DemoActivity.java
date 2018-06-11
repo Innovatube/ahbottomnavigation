@@ -3,6 +3,7 @@ package com.aurelhubert.ahbottomnavigation.demo;
 import android.animation.Animator;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -82,6 +83,7 @@ public class DemoActivity extends AppCompatActivity {
 
 			bottomNavigation.addItems(bottomNavigationItems);
 		}
+		bottomNavigation.setDefaultBackgroundColor(Color.RED);
 
 		bottomNavigation.manageFloatingActionButtonBehavior(floatingActionButton);
 		bottomNavigation.setTranslucentNavigationEnabled(true);
