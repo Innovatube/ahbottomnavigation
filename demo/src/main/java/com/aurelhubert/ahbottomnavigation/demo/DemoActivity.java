@@ -83,7 +83,7 @@ public class DemoActivity extends AppCompatActivity {
 
 			bottomNavigation.addItems(bottomNavigationItems);
 		}
-		bottomNavigation.setDefaultBackgroundColor(Color.RED);
+		bottomNavigation.setDefaultBackgroundColor(Color.WHITE);
 
 		bottomNavigation.manageFloatingActionButtonBehavior(floatingActionButton);
 		bottomNavigation.setTranslucentNavigationEnabled(true);
