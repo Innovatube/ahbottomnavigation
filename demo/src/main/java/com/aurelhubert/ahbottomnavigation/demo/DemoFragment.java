@@ -147,7 +147,7 @@ public class DemoFragment extends Fragment {
 		recyclerView.setLayoutManager(layoutManager);
 		
 		ArrayList<String> itemsData = new ArrayList<>();
-		for (int i = 0; i < 50; i++) {
+		for (int i = 0; i < 3; i++) {
 			itemsData.add("Fragment " + getArguments().getInt("index", -1) + " / Item " + i);
 		}
 		
