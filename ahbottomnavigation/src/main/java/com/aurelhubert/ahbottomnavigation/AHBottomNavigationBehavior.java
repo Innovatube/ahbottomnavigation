@@ -100,6 +100,7 @@ public class AHBottomNavigationBehavior<V extends View> extends VerticalScrollin
 
 	@Override
 	public void onDirectionNestedPreScroll(CoordinatorLayout coordinatorLayout, V child, View target, int dx, int dy, int[] consumed, @ScrollDirection int scrollDirection) {
+		child.setTranslationY(Math.max(0f, Math.min(child.getHeight(), child.getTranslationY() + dy)));
 	}
 
 	@Override
